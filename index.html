@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zhifa Geng 的个人学术主页，研究方向包括不完整多模态情感分析、长上下文建模与域适应。" />
+  <title>Zhifa Geng | Academic Homepage</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">Zhifa Geng</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Master's Student · AI Researcher</p>
+          <h1>Zhifa Geng <span>耿治发</span></h1>
+          <p class="hero-text">
+            I work on multimodal learning, long-context modeling and domain adaptation,
+            with a focus on robust representation learning under incomplete, long-range and distribution-shifted settings.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#research">View Research</a>
+            <a class="button secondary" href="https://github.com/unique-geng">GitHub</a>
+          </div>
+        </div>
+        <div class="profile-card">
+          <div class="avatar-placeholder">ZG</div>
+          <div>
+            <h2>Zhifa Geng</h2>
+            <p>School of Computer and Information</p>
+            <p>Anhui Polytechnic University</p>
+            <p class="muted">Wuhu, China</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container narrow">
+        <p class="section-kicker">About</p>
+        <h2>Researching robust and efficient AI systems</h2>
+        <p>
+          I am a master's student whose research focuses on multimodal sentiment analysis,
+          efficient long-context attention and domain adaptation. My work explores how models can remain reliable
+          when modalities are incomplete, contextual dependencies span long distances, or target-domain data differ from training distributions.
+        </p>
+      </div>
+    </section>
+
+    <section id="research" class="section alt">
+      <div class="container">
+        <p class="section-kicker">Research Interests</p>
+        <h2>Three connected research directions</h2>
+        <div class="cards three">
+          <article class="card">
+            <div class="card-index">01</div>
+            <h3>Incomplete Multimodal Learning</h3>
+            <p>Robust sentiment understanding under missing text, audio or visual information, with semantic completion and adaptive multimodal fusion.</p>
+            <div class="tags"><span>MOSI</span><span>MOSEI</span><span>SIMS</span></div>
+          </article>
+          <article class="card">
+            <div class="card-index">02</div>
+            <h3>Long-Context Modeling</h3>
+            <p>Landmark-based sparse attention, local-global interaction and distance-aware bias for scientific long-document modeling.</p>
+            <div class="tags"><span>Transformer</span><span>Landmark</span><span>LoRA</span></div>
+          </article>
+          <article class="card">
+            <div class="card-index">03</div>
+            <h3>Domain Adaptation</h3>
+            <p>Source-free and multi-source adaptation with prediction uncertainty, dynamic weighting and vision-language guidance.</p>
+            <div class="tags"><span>SFDA</span><span>MSDA</span><span>VLM</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="container">
+        <p class="section-kicker">Selected Work</p>
+        <h2>Publications & manuscripts</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-year">2026</div>
+            <div>
+              <h3>Incomplete Multimodal Sentiment Analysis</h3>
+              <p>Research on feature completion, semantic completion and text-dominant adaptive fusion for robust sentiment prediction under missing modalities.</p>
+              <span class="status">Journal manuscript</span>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-year">2026</div>
+            <div>
+              <h3>Multimodal Sarcasm Detection</h3>
+              <p>Knowledge-enhanced text and visual representations with adaptive cross-modal gated fusion for multimodal sarcasm understanding.</p>
+              <span class="status">Research project</span>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-year">2026</div>
+            <div>
+              <h3>Long Scientific Document Modeling</h3>
+              <p>Landmark-based sparse global attention with distance-aware bias and multi-scale context modeling for scientific long documents.</p>
+              <span class="status">Research project</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <p class="section-kicker">Projects</p>
+        <h2>Current technical work</h2>
+        <div class="cards two">
+          <article class="card project-card">
+            <h3>Landmark Attention for Long Context</h3>
+            <p>Local-window attention + landmark sparse global attention + Landmark Distance Bias, with LoRA-based efficient training.</p>
+            <p class="meta">PyTorch · Transformers · LoRA · Long-context evaluation</p>
+          </article>
+          <article class="card project-card">
+            <h3>Source-Free Domain Adaptation</h3>
+            <p>Entropy-guided prediction updates, progress-aware dynamic mixing and bias correction under target-domain adaptation.</p>
+            <p class="meta">PyTorch · ResNet · VLM guidance · Multi-seed evaluation</p>
+          </article>
+          <article class="card project-card">
+            <h3>Incomplete Multimodal Sentiment Analysis</h3>
+            <p>Mask-aware completion, shared semantic references and adaptive fusion under random and structured modality missing patterns.</p>
+            <p class="meta">MOSI · MOSEI · SIMS · Multimodal robustness</p>
+          </article>
+          <article class="card project-card">
+            <h3>Multimodal Sarcasm Detection</h3>
+            <p>LLM-assisted text enhancement, BLIP2/CLIP visual enhancement and adaptive cross-modal fusion.</p>
+            <p class="meta">Qwen · Llama · BLIP2 · CLIP</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <p class="section-kicker">Experience</p>
+        <h2>Research and engineering</h2>
+        <div class="experience-grid">
+          <article>
+            <span class="pill">2026.03 – 2026.07</span>
+            <h3>Chery Automobile Co., Ltd.</h3>
+            <p class="role">Intelligent Center · Software Platform Department</p>
+            <p>Worked on vehicle-side system support, performance inspection and low-level software development, gaining experience in engineering workflows and system-level debugging.</p>
+          </article>
+          <article>
+            <span class="pill">Master's Research</span>
+            <h3>Anhui Polytechnic University</h3>
+            <p class="role">School of Computer and Information</p>
+            <p>Research on robust multimodal learning, long-context Transformer architectures and domain adaptation, with emphasis on reproducible experimentation and model analysis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <p class="section-kicker">Technical Stack</p>
+        <h2>Tools I use</h2>
+        <div class="skill-groups">
+          <div><h3>Deep Learning</h3><p>PyTorch · Hugging Face Transformers · DeepSpeed · vLLM · LoRA / QLoRA</p></div>
+          <div><h3>Multimodal</h3><p>CLIP · BLIP2 · Vision-Language Models · Multimodal Fusion</p></div>
+          <div><h3>LLM & Retrieval</h3><p>Qwen · Llama · LangChain · Chroma · Milvus · RAG</p></div>
+          <div><h3>Research Workflow</h3><p>LaTeX · Git · Linux · CUDA · Experiment tracking · Reproducible evaluation</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="container narrow center">
+        <p class="section-kicker">Contact</p>
+        <h2>Let's connect</h2>
+        <p>For research discussions, collaboration or code-related questions, you can reach me through GitHub.</p>
+        <a class="button primary" href="https://github.com/unique-geng">github.com/unique-geng</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <span>© <span id="year"></span> Zhifa Geng</span>
+      <span>Academic Homepage</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
